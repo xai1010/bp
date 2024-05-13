@@ -1,0 +1,223 @@
+:root {
+  --blue-color: #041438;
+  --grey-color: #F3F3F6;
+  --white-color: #ffffff;
+  --black-color: #000000;
+}
+
+/* Resetting default margin and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.bg-blue {
+  background-color: var(--blue-color);
+  height: auto;
+}
+
+.text {
+  color: white;
+  font-size: 24px;
+}
+
+.hero-tagline {
+  margin: 3rem 3rem 3rem 3rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 1em;
+  text-decoration: none;
+  background-color: var(--white-color);
+  color: var(--blue-color);
+  border-radius: 25px;
+  margin-top: 1em;
+}
+
+.txt {
+  color: #3C38DF;
+}
+
+/* Hero Section End */
+
+
+/* Banner One Section  */
+.client-logos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.client-logo-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.client-logo {
+    width: 40%; /* Adjust width as needed for spacing */
+    height: 100px;
+    margin-bottom: 10px; /* Adjust margin as needed */
+
+}
+
+.client-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+
+/* Banner One Section  */
+
+/* Card Section*/
+.bg-white {
+  background-color: var(--grey-color);
+  height: auto;
+}
+
+
+
+.text-blue {
+  color: var(--blue-color);
+  font-size: 24px;
+  justify-content: center;
+
+}
+
+.image-section img {
+    width: 100%; /* Make the image responsive */
+    height: 100%
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+
+
+.content-section {
+  margin-top: 4rem;
+
+
+}
+/* Card Section  End*/
+
+/* SSL Section  End*/
+.image-ssl {
+  margin-top: 4rem;
+  
+}
+
+.image-ssl img {
+    width: 70%; /* Make the image responsive */
+    height: 70%
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+/* SSL Section  End*/
+
+/* Content Section */
+.custom-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  padding: 50px;
+}
+
+.section-title {
+  font-size: 2em;
+}
+
+.section-paragraph {
+  margin: 20px 0;
+}
+
+.section-button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 1em;
+  text-decoration: none;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  border-radius: 25px;
+  margin-top: 1em;
+}
+
+/* Content Section */
+
+/* Navbar Section */
+.navbar-brand-margin {
+  margin-left: 3rem;
+}
+
+.navbar-content-margin {
+  margin-right: 3rem;
+}
+
+.navbar-brand img {
+  max-width: 4%;
+  height: auto;
+}
+
+/* Navbar End */
+
+@media (max-width: 767px) {
+  .hero-section {
+    padding: 50px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .navbar-content-margin {
+    margin-left: 20px;
+  }
+
+  .navbar-brand img {
+    max-width: 5%;
+    height: auto;
+  }
+
+  .col-lg-6 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .col-lg-6.hide-on-mobile {
+    display: none;
+  }
+
+  .margin-toggle {
+    margin-left: 20rem;
+    margin-top: -3rem;
+  }
+
+}
+
+/* Fonts */
+.roboto-thin, .roboto-light, .roboto-regular,
+.roboto-medium, .roboto-bold, .roboto-black,
+.roboto-thin-italic, .roboto-light-italic, .roboto-regular-italic,
+.roboto-medium-italic, .roboto-bold-italic, .roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.roboto-thin { font-weight: 100; font-size: 13px; }
+.roboto-light { font-weight: 300; font-size: 13px; }
+.roboto-regular { font-weight: 400; }
+.roboto-medium { font-weight: 500; }
+.roboto-bold { font-weight: 700; }
+.roboto-black { font-weight: 900; }
+
+.roboto-thin-italic { font-weight: 100; font-style: italic; }
+.roboto-light-italic { font-weight: 300; font-style: italic; }
+.roboto-regular-italic { font-weight: 400; font-style: italic; }
+.roboto-medium-italic { font-weight: 500; font-style: italic; }
+.roboto-bold-italic { font-weight: 700; font-style: italic; }
+.roboto-black-italic { font-weight: 900; font-style: italic; }
