@@ -1,4 +1,4 @@
 function autoDial() {
-    var phoneNumber = "{{ phone_number }}";
-    window.location.href = "tel:" + phoneNumber;
+    var phoneNumber = "+613-9010-6116";
+    window.location.href = "tel:" + 613-9010-6116;
   }
